@@ -27,7 +27,7 @@ export default function Footer() {
 
           {/* 2. Massive Navigation Links */}
           <nav>
-            <ul className="flex flex-nowrap gap-8 sm:flex-wrap sm:gap-x-10 gap-y-4 font-bold text:lg sm:text-xl tracking-tighter uppercase">
+            <ul className="flex flex-nowrap gap-2 sm:flex-wrap sm:gap-x-10 gap-y-4 font-bold text:lg sm:text-xl tracking-tighter uppercase">
               {["home", "about", "projects", "contact"].map((item) => (
                 <li key={item}>
                   <a
