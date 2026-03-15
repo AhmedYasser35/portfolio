@@ -3,6 +3,7 @@ import ecommerce from '../../assets/e-commerce.jpg'
 import games from '../../assets/games.jpg'
 import food from '../../assets/food.jpg'
 import Contact from "./_components/contact/page";
+import DownloadCV from "./_components/downloadCV/page";
 
 
 
@@ -43,9 +44,7 @@ export default function Home() {
 
             {/* Call to Action Buttons */}
             <div className="mt-10 flex flex-wrap gap-4 justify-center">
-              <button className="border border-border bg-background/50 backdrop-blur-sm hover:bg-secondary text-foreground px-8 py-3 rounded-full font-bold transition-all">
-                Download CV
-              </button>
+              <DownloadCV />
             </div>
           </div>
         </div>
@@ -68,9 +67,9 @@ export default function Home() {
               <span className="text-foreground font-medium ">
                 Cybersecurity and AI student
               </span>{" "}
-              with a deep passion for Frontend Engineering. I bridge the gap
-              between complex backend security and intuitive, high-performance
-              user interfaces.
+              specializing in Frontend Engineering. I engineer hardened,
+              high-performance interfaces where complex data security meets
+              seamless user experience.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               My goal is to build web applications that are not only visually
